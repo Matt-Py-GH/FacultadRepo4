@@ -1,0 +1,14 @@
+C:\Users\mateo\OneDrive\Escritorio\C#\primerPrograma\primerPrograma\bin\Debug\net8.0\primerPrograma.exe
+C:\Users\mateo\OneDrive\Escritorio\C#\primerPrograma\primerPrograma\bin\Debug\net8.0\primerPrograma.deps.json
+C:\Users\mateo\OneDrive\Escritorio\C#\primerPrograma\primerPrograma\bin\Debug\net8.0\primerPrograma.runtimeconfig.json
+C:\Users\mateo\OneDrive\Escritorio\C#\primerPrograma\primerPrograma\bin\Debug\net8.0\primerPrograma.dll
+C:\Users\mateo\OneDrive\Escritorio\C#\primerPrograma\primerPrograma\bin\Debug\net8.0\primerPrograma.pdb
+C:\Users\mateo\OneDrive\Escritorio\C#\primerPrograma\primerPrograma\obj\Debug\net8.0\primerPrograma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateo\OneDrive\Escritorio\C#\primerPrograma\primerPrograma\obj\Debug\net8.0\primerPrograma.AssemblyInfoInputs.cache
+C:\Users\mateo\OneDrive\Escritorio\C#\primerPrograma\primerPrograma\obj\Debug\net8.0\primerPrograma.AssemblyInfo.cs
+C:\Users\mateo\OneDrive\Escritorio\C#\primerPrograma\primerPrograma\obj\Debug\net8.0\primerPrograma.csproj.CoreCompileInputs.cache
+C:\Users\mateo\OneDrive\Escritorio\C#\primerPrograma\primerPrograma\obj\Debug\net8.0\primerPrograma.dll
+C:\Users\mateo\OneDrive\Escritorio\C#\primerPrograma\primerPrograma\obj\Debug\net8.0\refint\primerPrograma.dll
+C:\Users\mateo\OneDrive\Escritorio\C#\primerPrograma\primerPrograma\obj\Debug\net8.0\primerPrograma.pdb
+C:\Users\mateo\OneDrive\Escritorio\C#\primerPrograma\primerPrograma\obj\Debug\net8.0\primerPrograma.genruntimeconfig.cache
+C:\Users\mateo\OneDrive\Escritorio\C#\primerPrograma\primerPrograma\obj\Debug\net8.0\ref\primerPrograma.dll
