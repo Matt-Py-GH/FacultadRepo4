@@ -82,3 +82,11 @@ class Program
 
 }
 
+Figura unCuadrado = new Cuadrado(parameters);
+
+
+se puede hacer eso y no se puede solo generar una figura porque es abstracta
+
+
+podemos hacer uso del polimorfismo con las funciones para calcular distintas areas, la del cuadrado y la del circulo, revisar eso con el override
+
