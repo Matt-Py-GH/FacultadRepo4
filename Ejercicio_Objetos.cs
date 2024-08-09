@@ -1,23 +1,22 @@
-﻿using System;
-
-
 abstract class Figura
 {
-    protected int BaseFigura { get; set; }
-    protected int AlturaFigura { get; set; }
-
-    public Figura(int baseFigura, int alturaFigura)
-    {
-        BaseFigura = baseFigura;
-        AlturaFigura = alturaFigura;
-    }
+    
+    public Figura(){}
 
     public abstract void CalcularArea();
 }
 
-class Cuadrado : Figura
-{
-    public Cuadrado(int baseFigura, int alturaFigura) : base(baseFigura, alturaFigura) { }
+class Cuadrado : Figura { 
+
+    protected int BaseFigura { get; set; }
+    protected int AlturaFigura { get; set; }
+
+    public Cuadrado(int baseFigura, int alturaFigura) : base() {
+
+        BaseFigura = baseFigura;
+        AlturaFigura = alturaFigura;    
+    
+    }
 
     public override void CalcularArea()
     {
@@ -26,59 +25,34 @@ class Cuadrado : Figura
     }
 }
 
-class Circulo
-{
+class Circulo : Figura { 
 
-    protected int RadioCirculo;
-    public Circulo(int radioCirculo)
-    {
+    protected float RadioCirculo { get; set; }
+
+    public Circulo(float radioCirculo) : base() {
+
         RadioCirculo = radioCirculo;
+    
     }
-
-    public void CalcularArea()
+ 
+    public override void CalcularArea()
     {
-        Console.WriteLine($"El area del cuadrado es: {3.14 * RadioCirculo}");
+        Console.WriteLine($"El area del circulo es: {Math.PI * RadioCirculo * RadioCirculo}");
 
     }
-}
-class Empleado
-{
-    protected string nombreEmpleado;
-    protected int DNIEmpleado;
-    protected int horasDeTrabajo;
-
-    public Empleado(string Nombre, int DNI, int Horas)
-    {
-        nombreEmpleado = Nombre;
-        DNIEmpleado = DNI;
-        horasDeTrabajo = Horas;
-
-    }
-
-    public void Despedir()
-    {
-        Console.WriteLine($"Used ha despedido al empleado {this.nombreEmpleado}");
-    }
-
 }
 
 class Program
 {
+   
     static void Main()
     {
-        Cuadrado unCuadradoRandom = new Cuadrado(8, 8);
+        Figura unCuadradoRandom = new Cuadrado(7, 7);
         unCuadradoRandom.CalcularArea();
 
-        Circulo unCirculoRandom = new Circulo(5);
+        Figura unCirculoRandom = new Circulo(5);
         unCirculoRandom.CalcularArea();
-
-        Empleado jorgito = new Empleado("Jorge", 45899011, 4);
-        Empleado pablito = new Empleado("Pablo", 21134352, 8);
-
-        jorgito.Despedir();
 
     }
 
-
 }
-
