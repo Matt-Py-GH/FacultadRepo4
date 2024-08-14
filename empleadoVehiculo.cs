@@ -30,7 +30,7 @@ class Gerente : Empleado
 }
 
 
-abstract class Vehiculo
+class Vehiculo
 {
     public string Marca { get; set; }
     public string Modelo { get; set; }
@@ -41,7 +41,10 @@ abstract class Vehiculo
         Marca = marca;
     }
 
-    public abstract void MostrarDetalles();
+    public void MostrarDetalles()
+    {
+        Console.WriteLine($"Detalles: {Marca} {Modelo}");
+    }
 }
 
 class Auto : Vehiculo
@@ -71,8 +74,9 @@ class Auto : Vehiculo
         _cantidadPuertas = cantidadPuertas;
     }
 
-    public override void MostrarDetalles()
+    public void MostrarDetallesAuto()
     {
+        MostrarDetalles();
         Console.WriteLine($"Detalles: {Marca} {Modelo}, {CantidadPuertas} puertas");
     }
 
@@ -82,8 +86,8 @@ class Program
 {
     static void Main()
     {
-        Vehiculo unAuto = new Auto(3, "Renault", "Megane");
-        unAuto.MostrarDetalles();
+        Auto unAuto = new Auto(3, "Renault", "Megane");
+        unAuto.MostrarDetallesAuto();
 
         Console.WriteLine("\n");
 
